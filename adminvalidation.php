@@ -1,7 +1,7 @@
 <?php 
 if(isset($_POST['adminsubmit'])){
     if($_POST['adminuser']=="admin" && $_POST['adminpassword']=="admin123"){
-        header('location:adminwelcome.php');
+        header('location:adminview.php');
         session_start();
         echo  "right";
         

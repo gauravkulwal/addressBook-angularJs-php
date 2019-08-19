@@ -8,7 +8,7 @@ if($con){
        $q="INSERT INTO `userlogin`( `username`, `password`, `mobile`) VALUES ('$user','$password','$mobile')";
     $result=mysqli_query($con,$q);
     
-    
+    header('location:userlogin.php');
     
     }
     else{
